@@ -31,6 +31,7 @@
 		23187B751A17A7B50005D8E7 /* FileHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = 23187B721A17A7B50005D8E7 /* FileHelper.m */; };
 		23187B761A17A7B50005D8E7 /* NSData+MD5Digest.m in Sources */ = {isa = PBXBuildFile; fileRef = 23187B741A17A7B50005D8E7 /* NSData+MD5Digest.m */; };
 		23187B781A17A7F60005D8E7 /* MobileCoreServices.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 23187B771A17A7F60005D8E7 /* MobileCoreServices.framework */; };
+		23187B7B1A17AA620005D8E7 /* WWAVPlayerView.m in Sources */ = {isa = PBXBuildFile; fileRef = 23187B7A1A17AA620005D8E7 /* WWAVPlayerView.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -65,6 +66,8 @@
 		23187B731A17A7B50005D8E7 /* NSData+MD5Digest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSData+MD5Digest.h"; sourceTree = "<group>"; };
 		23187B741A17A7B50005D8E7 /* NSData+MD5Digest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSData+MD5Digest.m"; sourceTree = "<group>"; };
 		23187B771A17A7F60005D8E7 /* MobileCoreServices.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MobileCoreServices.framework; path = System/Library/Frameworks/MobileCoreServices.framework; sourceTree = SDKROOT; };
+		23187B791A17AA620005D8E7 /* WWAVPlayerView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WWAVPlayerView.h; sourceTree = "<group>"; };
+		23187B7A1A17AA620005D8E7 /* WWAVPlayerView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WWAVPlayerView.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -139,6 +142,8 @@
 				23187B301A17A5610005D8E7 /* WWViewController.m */,
 				23187B321A17A5610005D8E7 /* Images.xcassets */,
 				23187B211A17A5600005D8E7 /* Supporting Files */,
+				23187B791A17AA620005D8E7 /* WWAVPlayerView.h */,
+				23187B7A1A17AA620005D8E7 /* WWAVPlayerView.m */,
 			);
 			path = AVPlayerXSample;
 			sourceTree = "<group>";
@@ -262,6 +267,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				23187B7B1A17AA620005D8E7 /* WWAVPlayerView.m in Sources */,
 				23187B2B1A17A5610005D8E7 /* WWAppDelegate.m in Sources */,
 				23187B271A17A5610005D8E7 /* main.m in Sources */,
 				23187B761A17A7B50005D8E7 /* NSData+MD5Digest.m in Sources */,
@@ -363,7 +369,7 @@
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
-					/Users/Tree/Project/git/WWVideoKit4iOS/framework,
+					"$(PROJECT_DIR)/../../framework",
 				);
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "AVPlayerXSample/AVPlayerXSample-Prefix.pch";
@@ -381,7 +387,7 @@
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
-					/Users/Tree/Project/git/WWVideoKit4iOS/framework,
+					"$(PROJECT_DIR)/../../framework",
 				);
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "AVPlayerXSample/AVPlayerXSample-Prefix.pch";
