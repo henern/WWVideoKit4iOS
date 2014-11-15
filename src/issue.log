@@ -1,0 +1,4 @@
+2014-11-16
+1. unnecessary dependency.
+2. bad performance for online fragmented mp4.
+3. not support online flv.
