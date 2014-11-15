@@ -20,8 +20,10 @@ Examples
 
 Dependency
 ----------
-[ASIHTTPRequest](http://allseeing-i.com/ASIHTTPRequest/)
-[CocoaHTTPServer](https://github.com/robbiehanson/CocoaHTTPServer)
-[Reachability](https://github.com/tonymillion/Reachability)
+[ASIHTTPRequest](http://allseeing-i.com/ASIHTTPRequest/).
+
+[CocoaHTTPServer](https://github.com/robbiehanson/CocoaHTTPServer).
+
+[Reachability](https://github.com/tonymillion/Reachability).
 
 
