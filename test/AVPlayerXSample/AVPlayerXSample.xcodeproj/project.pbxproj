@@ -25,6 +25,12 @@
 		23187B661A17A7060005D8E7 /* 0.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 23187B601A17A7060005D8E7 /* 0.mp4 */; };
 		23187B681A17A7060005D8E7 /* 1.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 23187B621A17A7060005D8E7 /* 1.mp4 */; };
 		23187B691A17A7060005D8E7 /* 2.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 23187B631A17A7060005D8E7 /* 2.mp4 */; };
+		23187B6B1A17A7770005D8E7 /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 23187B6A1A17A7770005D8E7 /* SystemConfiguration.framework */; };
+		23187B6D1A17A77F0005D8E7 /* libz.1.2.5.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 23187B6C1A17A77F0005D8E7 /* libz.1.2.5.dylib */; };
+		23187B6F1A17A7860005D8E7 /* libxml2.2.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 23187B6E1A17A7860005D8E7 /* libxml2.2.dylib */; };
+		23187B751A17A7B50005D8E7 /* FileHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = 23187B721A17A7B50005D8E7 /* FileHelper.m */; };
+		23187B761A17A7B50005D8E7 /* NSData+MD5Digest.m in Sources */ = {isa = PBXBuildFile; fileRef = 23187B741A17A7B50005D8E7 /* NSData+MD5Digest.m */; };
+		23187B781A17A7F60005D8E7 /* MobileCoreServices.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 23187B771A17A7F60005D8E7 /* MobileCoreServices.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -51,6 +57,14 @@
 		23187B601A17A7060005D8E7 /* 0.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = 0.mp4; sourceTree = "<group>"; };
 		23187B621A17A7060005D8E7 /* 1.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = 1.mp4; sourceTree = "<group>"; };
 		23187B631A17A7060005D8E7 /* 2.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = 2.mp4; sourceTree = "<group>"; };
+		23187B6A1A17A7770005D8E7 /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
+		23187B6C1A17A77F0005D8E7 /* libz.1.2.5.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libz.1.2.5.dylib; path = usr/lib/libz.1.2.5.dylib; sourceTree = SDKROOT; };
+		23187B6E1A17A7860005D8E7 /* libxml2.2.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libxml2.2.dylib; path = usr/lib/libxml2.2.dylib; sourceTree = SDKROOT; };
+		23187B711A17A7B50005D8E7 /* FileHelper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FileHelper.h; sourceTree = "<group>"; };
+		23187B721A17A7B50005D8E7 /* FileHelper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FileHelper.m; sourceTree = "<group>"; };
+		23187B731A17A7B50005D8E7 /* NSData+MD5Digest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSData+MD5Digest.h"; sourceTree = "<group>"; };
+		23187B741A17A7B50005D8E7 /* NSData+MD5Digest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSData+MD5Digest.m"; sourceTree = "<group>"; };
+		23187B771A17A7F60005D8E7 /* MobileCoreServices.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MobileCoreServices.framework; path = System/Library/Frameworks/MobileCoreServices.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +72,10 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				23187B781A17A7F60005D8E7 /* MobileCoreServices.framework in Frameworks */,
+				23187B6F1A17A7860005D8E7 /* libxml2.2.dylib in Frameworks */,
+				23187B6D1A17A77F0005D8E7 /* libz.1.2.5.dylib in Frameworks */,
+				23187B6B1A17A7770005D8E7 /* SystemConfiguration.framework in Frameworks */,
 				23187B1D1A17A5600005D8E7 /* CoreGraphics.framework in Frameworks */,
 				23187B1F1A17A5600005D8E7 /* UIKit.framework in Frameworks */,
 				23187B561A17A6130005D8E7 /* AsyncSocket4iOS.framework in Frameworks */,
@@ -93,6 +111,10 @@
 		23187B191A17A5600005D8E7 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				23187B771A17A7F60005D8E7 /* MobileCoreServices.framework */,
+				23187B6E1A17A7860005D8E7 /* libxml2.2.dylib */,
+				23187B6C1A17A77F0005D8E7 /* libz.1.2.5.dylib */,
+				23187B6A1A17A7770005D8E7 /* SystemConfiguration.framework */,
 				23187B4F1A17A6130005D8E7 /* ASIHTTP.framework */,
 				23187B501A17A6130005D8E7 /* AsyncSocket4iOS.framework */,
 				23187B511A17A6130005D8E7 /* CocoaHTTPServer.framework */,
@@ -109,6 +131,7 @@
 		23187B201A17A5600005D8E7 /* AVPlayerXSample */ = {
 			isa = PBXGroup;
 			children = (
+				23187B701A17A7B50005D8E7 /* Utils */,
 				23187B5B1A17A6F80005D8E7 /* Resources */,
 				23187B291A17A5610005D8E7 /* WWAppDelegate.h */,
 				23187B2A1A17A5610005D8E7 /* WWAppDelegate.m */,
@@ -158,6 +181,17 @@
 			);
 			name = mp4;
 			path = ../../mp4;
+			sourceTree = "<group>";
+		};
+		23187B701A17A7B50005D8E7 /* Utils */ = {
+			isa = PBXGroup;
+			children = (
+				23187B711A17A7B50005D8E7 /* FileHelper.h */,
+				23187B721A17A7B50005D8E7 /* FileHelper.m */,
+				23187B731A17A7B50005D8E7 /* NSData+MD5Digest.h */,
+				23187B741A17A7B50005D8E7 /* NSData+MD5Digest.m */,
+			);
+			path = Utils;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -230,7 +264,9 @@
 			files = (
 				23187B2B1A17A5610005D8E7 /* WWAppDelegate.m in Sources */,
 				23187B271A17A5610005D8E7 /* main.m in Sources */,
+				23187B761A17A7B50005D8E7 /* NSData+MD5Digest.m in Sources */,
 				23187B311A17A5610005D8E7 /* WWViewController.m in Sources */,
+				23187B751A17A7B50005D8E7 /* FileHelper.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
