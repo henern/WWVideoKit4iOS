@@ -21,6 +21,10 @@
 		23187B581A17A6130005D8E7 /* DDLog4iOS.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 23187B521A17A6130005D8E7 /* DDLog4iOS.framework */; };
 		23187B591A17A6130005D8E7 /* Reachability.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 23187B531A17A6130005D8E7 /* Reachability.framework */; };
 		23187B5A1A17A6130005D8E7 /* WWVideoKit4iOS.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 23187B541A17A6130005D8E7 /* WWVideoKit4iOS.framework */; };
+		23187B641A17A7060005D8E7 /* 000.flv in Resources */ = {isa = PBXBuildFile; fileRef = 23187B5D1A17A7060005D8E7 /* 000.flv */; };
+		23187B661A17A7060005D8E7 /* 0.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 23187B601A17A7060005D8E7 /* 0.mp4 */; };
+		23187B681A17A7060005D8E7 /* 1.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 23187B621A17A7060005D8E7 /* 1.mp4 */; };
+		23187B691A17A7060005D8E7 /* 2.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 23187B631A17A7060005D8E7 /* 2.mp4 */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -43,6 +47,10 @@
 		23187B521A17A6130005D8E7 /* DDLog4iOS.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = DDLog4iOS.framework; path = ../../framework/DDLog4iOS.framework; sourceTree = "<group>"; };
 		23187B531A17A6130005D8E7 /* Reachability.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Reachability.framework; path = ../../framework/Reachability.framework; sourceTree = "<group>"; };
 		23187B541A17A6130005D8E7 /* WWVideoKit4iOS.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = WWVideoKit4iOS.framework; path = ../../framework/WWVideoKit4iOS.framework; sourceTree = "<group>"; };
+		23187B5D1A17A7060005D8E7 /* 000.flv */ = {isa = PBXFileReference; lastKnownFileType = file; path = 000.flv; sourceTree = "<group>"; };
+		23187B601A17A7060005D8E7 /* 0.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = 0.mp4; sourceTree = "<group>"; };
+		23187B621A17A7060005D8E7 /* 1.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = 1.mp4; sourceTree = "<group>"; };
+		23187B631A17A7060005D8E7 /* 2.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = 2.mp4; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,6 +109,7 @@
 		23187B201A17A5600005D8E7 /* AVPlayerXSample */ = {
 			isa = PBXGroup;
 			children = (
+				23187B5B1A17A6F80005D8E7 /* Resources */,
 				23187B291A17A5610005D8E7 /* WWAppDelegate.h */,
 				23187B2A1A17A5610005D8E7 /* WWAppDelegate.m */,
 				23187B2F1A17A5610005D8E7 /* WWViewController.h */,
@@ -120,6 +129,35 @@
 				23187B281A17A5610005D8E7 /* AVPlayerXSample-Prefix.pch */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		23187B5B1A17A6F80005D8E7 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				23187B5C1A17A7060005D8E7 /* flv */,
+				23187B5F1A17A7060005D8E7 /* mp4 */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		23187B5C1A17A7060005D8E7 /* flv */ = {
+			isa = PBXGroup;
+			children = (
+				23187B5D1A17A7060005D8E7 /* 000.flv */,
+			);
+			name = flv;
+			path = ../../flv;
+			sourceTree = "<group>";
+		};
+		23187B5F1A17A7060005D8E7 /* mp4 */ = {
+			isa = PBXGroup;
+			children = (
+				23187B601A17A7060005D8E7 /* 0.mp4 */,
+				23187B621A17A7060005D8E7 /* 1.mp4 */,
+				23187B631A17A7060005D8E7 /* 2.mp4 */,
+			);
+			name = mp4;
+			path = ../../mp4;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -174,8 +212,12 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				23187B681A17A7060005D8E7 /* 1.mp4 in Resources */,
+				23187B641A17A7060005D8E7 /* 000.flv in Resources */,
 				23187B331A17A5610005D8E7 /* Images.xcassets in Resources */,
 				23187B251A17A5600005D8E7 /* InfoPlist.strings in Resources */,
+				23187B691A17A7060005D8E7 /* 2.mp4 in Resources */,
+				23187B661A17A7060005D8E7 /* 0.mp4 in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -333,6 +375,7 @@
 				23187B4B1A17A5610005D8E7 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
